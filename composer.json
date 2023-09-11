@@ -1,5 +1,5 @@
 {
-  "name": "mrjgreen/database",
+  "name": "mirkz84/database",
   "description": "Expressive Database Layer for PHP - Based on Illuminate/Database",
   "license": "MIT",
   "keywords": [
@@ -18,8 +18,8 @@
     "test": "php vendor/bin/phpunit"
   },
   "require": {
-    "php": ">=5.4.0",
-    "psr/log": "~1.0"
+    "php": ">=7.4.0",
+    "psr/log": "^1.0|^2.0|^3.0"
   },
   "require-dev": {
     "mockery/mockery": "*",
