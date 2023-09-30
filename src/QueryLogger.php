@@ -9,7 +9,7 @@ class QueryLogger extends AbstractLogger
     /**
      * {inherit}
      */
-    public function log($level, $message, array $context = array())
+    public function log($level, \Stringable|string $message, array $context = array()): void
     {
         $this->queryLog[] = array($message, $context);
     }
